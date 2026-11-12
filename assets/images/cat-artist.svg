@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cat-art-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF5D1"/>
+      <stop offset="100%" stop-color="#FCD579"/>
+    </linearGradient>
+    <linearGradient id="beret-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FB7185"/>
+      <stop offset="100%" stop-color="#E11D48"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background decorative canvas/art circle -->
+  <circle cx="120" cy="120" r="105" fill="#FFFBEB" stroke="#FDE68A" stroke-width="4"/>
+
+  <!-- Paint Splashes decor -->
+  <circle cx="45" cy="65" r="9" fill="#F43F5E" opacity="0.4"/>
+  <circle cx="56" cy="54" r="4" fill="#F43F5E" opacity="0.3"/>
+  <circle cx="195" cy="70" r="10" fill="#38BDF8" opacity="0.45"/>
+  <circle cx="180" cy="50" r="5" fill="#38BDF8" opacity="0.3"/>
+  <circle cx="40" cy="155" r="8" fill="#F59E0B" opacity="0.5"/>
+  <circle cx="205" cy="150" r="9" fill="#10B981" opacity="0.4"/>
+
+  <!-- Body -->
+  <ellipse cx="120" cy="165" rx="50" ry="46" fill="url(#cat-art-grad)" stroke="#DF9B28" stroke-width="3"/>
+  <ellipse cx="120" cy="172" rx="30" ry="28" fill="#FFFFFF"/>
+
+  <!-- Feet -->
+  <ellipse cx="85" cy="198" rx="15" ry="10" fill="url(#cat-art-grad)" stroke="#DF9B28" stroke-width="2.5"/>
+  <ellipse cx="155" cy="198" rx="15" ry="10" fill="url(#cat-art-grad)" stroke="#DF9B28" stroke-width="2.5"/>
+
+  <!-- Head -->
+  <circle cx="120" cy="98" r="46" fill="url(#cat-art-grad)" stroke="#DF9B28" stroke-width="3"/>
+
+  <!-- Left Ear -->
+  <polygon points="80,75 70,26 102,58" fill="url(#cat-art-grad)" stroke="#DF9B28" stroke-width="3"/>
+  <polygon points="81,68 76,38 98,58" fill="#FFB4B4"/>
+
+  <!-- Right Ear -->
+  <polygon points="160,75 170,26 138,58" fill="url(#cat-art-grad)" stroke="#DF9B28" stroke-width="3"/>
+  <polygon points="159,68 164,38 142,58" fill="#FFB4B4"/>
+
+  <!-- Artist Beret tilted on Head -->
+  <path d="M78,65 C70,35 140,25 158,50 C165,58 155,75 125,75 C95,75 82,72 78,65 Z" fill="url(#beret-grad)" stroke="#BE123C" stroke-width="2.5"/>
+  <!-- Beret stalk/pom -->
+  <circle cx="125" cy="35" r="4" fill="#BE123C"/>
+
+  <!-- Eyes (Creative sparkling happy eyes) -->
+  <ellipse cx="102" cy="98" rx="6" ry="8" fill="#451A03"/>
+  <circle cx="100" cy="95" r="2.5" fill="#FFFFFF"/>
+  <ellipse cx="138" cy="98" rx="6" ry="8" fill="#451A03"/>
+  <circle cx="136" cy="95" r="2.5" fill="#FFFFFF"/>
+
+  <!-- Cute Cat Nose & Smile -->
+  <polygon points="117,105 123,105 120,109" fill="#F43F5E"/>
+  <path d="M120,109 L120,113 M120,113 Q114,120 108,114 M120,113 Q126,120 132,114" stroke="#451A03" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Cheeks with cute pink blush + a dab of paint on cheek! -->
+  <ellipse cx="90" cy="110" rx="8" ry="5" fill="#FF8A8A" opacity="0.6"/>
+  <ellipse cx="150" cy="110" rx="8" ry="5" fill="#FF8A8A" opacity="0.6"/>
+  <!-- Dab of blue paint on cheek -->
+  <circle cx="92" cy="111" r="2.5" fill="#0284C7"/>
+
+  <!-- Whiskers -->
+  <g stroke="#92400E" stroke-width="1.8" stroke-linecap="round">
+    <line x1="78" y1="106" x2="62" y2="103"/>
+    <line x1="77" y1="114" x2="60" y2="116"/>
+    <line x1="162" y1="106" x2="178" y2="103"/>
+    <line x1="163" y1="114" x2="180" y2="116"/>
+  </g>
+
+  <!-- Left Arm / Paw holding Artist Palette -->
+  <ellipse cx="82" cy="160" rx="12" ry="12" fill="url(#cat-art-grad)" stroke="#DF9B28" stroke-width="2.5"/>
+  <!-- Wooden Palette -->
+  <path d="M60,175 C45,175 42,145 60,140 C75,135 95,145 90,170 C88,180 70,180 60,175 Z" fill="#FDE68A" stroke="#D97706" stroke-width="2"/>
+  <circle cx="68" cy="162" r="4" fill="#FFFFFF" stroke="#D97706" stroke-width="1.5"/>
+  <!-- Paint dabs on palette -->
+  <circle cx="53" cy="150" r="3" fill="#EF4444"/>
+  <circle cx="63" cy="144" r="3" fill="#3B82F6"/>
+  <circle cx="76" cy="148" r="3" fill="#10B981"/>
+  <circle cx="82" cy="160" r="3" fill="#A855F7"/>
+
+  <!-- Right Arm / Paw holding Paintbrush -->
+  <ellipse cx="158" cy="155" rx="12" ry="12" fill="url(#cat-art-grad)" stroke="#DF9B28" stroke-width="2.5"/>
+  <!-- Paintbrush -->
+  <g transform="translate(155, 125) rotate(-35)">
+    <rect x="0" y="8" width="5" height="38" fill="#B45309" rx="1"/>
+    <rect x="-1" y="2" width="7" height="7" fill="#CBD5E1" stroke="#64748B" stroke-width="1"/>
+    <!-- Bristles & tip with pink paint -->
+    <path d="M-1,2 C-1,-6 2.5,-12 2.5,-12 C2.5,-12 6,-6 6,2 Z" fill="#F43F5E"/>
+  </g>
+</svg>

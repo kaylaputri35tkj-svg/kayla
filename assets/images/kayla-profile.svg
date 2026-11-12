@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF5D6"/>
+      <stop offset="100%" stop-color="#FDE183"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFE0BD"/>
+      <stop offset="100%" stop-color="#FCD5A8"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D2118"/>
+      <stop offset="100%" stop-color="#1B130D"/>
+    </linearGradient>
+    <linearGradient id="uniform" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#405068"/>
+      <stop offset="100%" stop-color="#283446"/>
+    </linearGradient>
+    <filter id="soft-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#806214" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background Circle with Soft Yellow Gradient -->
+  <circle cx="200" cy="200" r="185" fill="url(#bg-grad)" stroke="#F2C94C" stroke-width="6"/>
+
+  <!-- Decorative Stars & Sparkles -->
+  <g fill="#F2A900" opacity="0.8">
+    <!-- Star 1 -->
+    <path d="M70,80 Q80,80 80,70 Q80,80 90,80 Q80,80 80,90 Q80,80 70,80 Z"/>
+    <!-- Star 2 -->
+    <path d="M315,95 Q325,95 325,85 Q325,95 335,95 Q325,95 325,105 Q325,95 315,95 Z" transform="scale(0.8) translate(70, 20)"/>
+    <!-- Star 3 -->
+    <path d="M60,280 Q70,280 70,270 Q70,280 80,280 Q70,280 70,290 Q70,280 60,280 Z" transform="scale(0.7) translate(20, 90)"/>
+  </g>
+
+  <!-- Cute Cat Ears Hairband on Kayla -->
+  <g id="cat-ears-headband">
+    <!-- Headband arc -->
+    <path d="M140,115 Q200,90 260,115" stroke="#E59835" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <!-- Left Ear -->
+    <path d="M138,125 L120,70 L168,95 Z" fill="#FAD02C" stroke="#D97706" stroke-width="3"/>
+    <path d="M136,115 L126,80 L158,97 Z" fill="#FFB7B2"/>
+    <!-- Right Ear -->
+    <path d="M262,125 L280,70 L232,95 Z" fill="#FAD02C" stroke="#D97706" stroke-width="3"/>
+    <path d="M264,115 L274,80 L242,97 Z" fill="#FFB7B2"/>
+  </g>
+
+  <!-- Hair Back -->
+  <path d="M125,170 C110,230 115,290 135,340 C145,290 160,260 160,260 L240,260 C240,260 255,290 265,340 C285,290 290,230 275,170 C270,120 130,120 125,170 Z" fill="url(#hair)"/>
+
+  <!-- Neck -->
+  <rect x="180" y="240" width="40" height="45" fill="url(#skin)" rx="8"/>
+
+  <!-- Shoulders & Outfit (Modern High School Vest / Blazer) -->
+  <path d="M110,380 C110,310 135,275 175,275 L225,275 C265,275 290,310 290,380 Z" fill="url(#uniform)" filter="url(#soft-shadow)"/>
+  <!-- White Inner Shirt Collar -->
+  <polygon points="175,275 200,320 225,275" fill="#FFFFFF"/>
+  <polygon points="186,275 200,312 204,275" fill="#E2E8F0"/>
+  <!-- Red/Yellow School Tie/Ribbon -->
+  <polygon points="196,310 204,310 207,365 200,375 193,365" fill="#D9383A"/>
+  <circle cx="200" cy="312" r="5" fill="#B91C1C"/>
+  <!-- Vest Lapels -->
+  <path d="M165,275 L190,335 L175,370 L125,380 Z" fill="#4B5E78"/>
+  <path d="M235,275 L210,335 L225,370 L275,380 Z" fill="#35455A"/>
+
+  <!-- Face -->
+  <ellipse cx="200" cy="190" rx="60" ry="68" fill="url(#skin)"/>
+
+  <!-- Hair Front (Bangs & Sides) -->
+  <path d="M138,175 C132,130 155,115 200,115 C245,115 268,130 262,175 C255,145 235,135 200,135 C165,135 145,145 138,175 Z" fill="url(#hair)"/>
+  <!-- Cute Front Bangs Strands -->
+  <path d="M150,140 Q170,170 178,142 Q195,175 205,140 Q220,172 230,140 Q248,168 252,145 C258,185 258,215 262,235 C255,225 250,195 248,170 C240,140 160,140 152,170 C150,195 145,225 138,235 C142,215 142,185 150,140 Z" fill="url(#hair)"/>
+
+  <!-- Eyebrows -->
+  <path d="M162,170 Q175,164 186,168" stroke="#3D291D" stroke-width="2.8" stroke-linecap="round" fill="none"/>
+  <path d="M214,168 Q225,164 238,170" stroke="#3D291D" stroke-width="2.8" stroke-linecap="round" fill="none"/>
+
+  <!-- Eyes (Big, Expressive, Sparkly) -->
+  <!-- Left Eye -->
+  <ellipse cx="174" cy="186" rx="9" ry="11" fill="#23170F"/>
+  <circle cx="172" cy="183" r="3.5" fill="#FFFFFF"/>
+  <circle cx="177" cy="190" r="1.5" fill="#FFFFFF"/>
+  <path d="M162,182 Q174,174 186,182" stroke="#1D120B" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Right Eye -->
+  <ellipse cx="226" cy="186" rx="9" ry="11" fill="#23170F"/>
+  <circle cx="224" cy="183" r="3.5" fill="#FFFFFF"/>
+  <circle cx="229" cy="190" r="1.5" fill="#FFFFFF"/>
+  <path d="M214,182 Q226,174 238,182" stroke="#1D120B" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Blush (Soft Pink Cheeks) -->
+  <ellipse cx="160" cy="202" rx="11" ry="6" fill="#FF8A8A" opacity="0.6"/>
+  <ellipse cx="240" cy="202" rx="11" ry="6" fill="#FF8A8A" opacity="0.6"/>
+
+  <!-- Nose -->
+  <path d="M198,197 Q200,201 202,197" stroke="#DDA27A" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Smile -->
+  <path d="M190,214 Q200,224 210,214" stroke="#B8423F" stroke-width="2.8" fill="none" stroke-linecap="round"/>
+
+  <!-- Little Cat Whisker marks on cheeks for cuteness -->
+  <g stroke="#E09267" stroke-width="1.5" stroke-linecap="round" opacity="0.55">
+    <line x1="142" y1="198" x2="130" y2="196"/>
+    <line x1="143" y1="205" x2="132" y2="207"/>
+    <line x1="258" y1="198" x2="270" y2="196"/>
+    <line x1="257" y1="205" x2="268" y2="207"/>
+  </g>
+
+  <!-- Small badge: SMK Telkom Malang Moklet Red Accent Pin -->
+  <rect x="145" y="325" width="22" height="12" rx="3" fill="#D32F2F" stroke="#FFFFFF" stroke-width="1"/>
+  <text x="148" y="334" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#FFFFFF">TS</text>
+</svg>

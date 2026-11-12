@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cat-music-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF5D1"/>
+      <stop offset="100%" stop-color="#FCD579"/>
+    </linearGradient>
+    <linearGradient id="headphone-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#4F46E5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background decorative circle -->
+  <circle cx="120" cy="120" r="105" fill="#FEFCE8" stroke="#FDE68A" stroke-width="4"/>
+
+  <!-- Floating Musical Notes -->
+  <g fill="#6366F1" opacity="0.85">
+    <!-- Note 1 -->
+    <path d="M48,80 L48,60 C55,58 60,63 65,65 L65,85" stroke="#6366F1" stroke-width="2.5" fill="none"/>
+    <ellipse cx="44" cy="82" rx="6" ry="4.5" transform="rotate(-20, 44, 82)"/>
+    <ellipse cx="61" cy="87" rx="6" ry="4.5" transform="rotate(-20, 61, 87)"/>
+    <!-- Note 2 Single eighth note -->
+    <path d="M190,65 L190,45 C198,44 205,48 206,53" stroke="#EC4899" stroke-width="2.5" fill="none"/>
+    <ellipse cx="186" cy="67" rx="6" ry="4.5" fill="#EC4899" transform="rotate(-20, 186, 67)"/>
+    <!-- Little treble clef or sparkles -->
+    <path d="M52,145 Q58,145 58,139 Q58,145 64,145 Q58,145 58,151 Q58,145 52,145 Z" fill="#F59E0B"/>
+    <path d="M192,130 Q197,130 197,125 Q197,130 202,130 Q197,130 197,135 Q197,130 192,130 Z" fill="#F59E0B"/>
+  </g>
+
+  <!-- Body -->
+  <ellipse cx="120" cy="165" rx="50" ry="46" fill="url(#cat-music-grad)" stroke="#DF9B28" stroke-width="3"/>
+  <ellipse cx="120" cy="172" rx="30" ry="28" fill="#FFFFFF"/>
+
+  <!-- Feet -->
+  <ellipse cx="85" cy="198" rx="15" ry="10" fill="url(#cat-music-grad)" stroke="#DF9B28" stroke-width="2.5"/>
+  <ellipse cx="155" cy="198" rx="15" ry="10" fill="url(#cat-music-grad)" stroke="#DF9B28" stroke-width="2.5"/>
+
+  <!-- Front Paws placed cozily on belly -->
+  <ellipse cx="102" cy="182" rx="10" ry="12" fill="url(#cat-music-grad)" stroke="#DF9B28" stroke-width="2.5"/>
+  <ellipse cx="138" cy="182" rx="10" ry="12" fill="url(#cat-music-grad)" stroke="#DF9B28" stroke-width="2.5"/>
+
+  <!-- Head -->
+  <circle cx="120" cy="100" r="46" fill="url(#cat-music-grad)" stroke="#DF9B28" stroke-width="3"/>
+
+  <!-- Ears -->
+  <polygon points="80,78 70,30 102,60" fill="url(#cat-music-grad)" stroke="#DF9B28" stroke-width="3"/>
+  <polygon points="81,71 76,40 98,60" fill="#FFB4B4"/>
+
+  <polygon points="160,78 170,30 138,60" fill="url(#cat-music-grad)" stroke="#DF9B28" stroke-width="3"/>
+  <polygon points="159,71 164,40 142,60" fill="#FFB4B4"/>
+
+  <!-- Headphone Band -->
+  <path d="M72,100 C68,48 172,48 168,100" stroke="#312E81" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M74,98 C71,52 169,52 166,98" stroke="url(#headphone-grad)" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Headphone Ear Cups -->
+  <rect x="64" y="90" width="16" height="28" rx="8" fill="url(#headphone-grad)" stroke="#312E81" stroke-width="2"/>
+  <rect x="68" y="94" width="8" height="20" rx="4" fill="#C7D2FE"/>
+  
+  <rect x="160" y="90" width="16" height="28" rx="8" fill="url(#headphone-grad)" stroke="#312E81" stroke-width="2"/>
+  <rect x="164" y="94" width="8" height="20" rx="4" fill="#C7D2FE"/>
+
+  <!-- Peaceful Vibing Closed Eyes (Happy curve) -->
+  <path d="M96,98 Q105,90 114,98" stroke="#451A03" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+  <path d="M126,98 Q135,90 144,98" stroke="#451A03" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+
+  <!-- Cheeks Blush -->
+  <ellipse cx="92" cy="110" rx="9" ry="5.5" fill="#FF8A8A" opacity="0.65"/>
+  <ellipse cx="148" cy="110" rx="9" ry="5.5" fill="#FF8A8A" opacity="0.65"/>
+
+  <!-- Cute Cat Nose & Serene Smile -->
+  <polygon points="117,105 123,105 120,109" fill="#F43F5E"/>
+  <path d="M120,109 L120,113 M120,113 Q114,120 108,114 M120,113 Q126,120 132,114" stroke="#451A03" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Whiskers -->
+  <g stroke="#92400E" stroke-width="1.8" stroke-linecap="round">
+    <line x1="82" y1="108" x2="68" y2="106"/>
+    <line x1="82" y1="115" x2="68" y2="117"/>
+    <line x1="158" y1="108" x2="172" y2="106"/>
+    <line x1="158" y1="115" x2="172" y2="117"/>
+  </g>
+</svg>

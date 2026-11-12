@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sleep-cat" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF3C4"/>
+      <stop offset="100%" stop-color="#FCD579"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Curled body -->
+  <path d="M40,90 C25,75 30,35 70,30 C120,25 160,40 165,70 C170,95 140,105 100,105 C60,105 45,98 40,90 Z" fill="url(#sleep-cat)" stroke="#DF9B28" stroke-width="2.5"/>
+
+  <!-- Tail curled around body -->
+  <path d="M162,75 C175,82 178,98 165,104 C150,110 130,108 120,106" stroke="#DF9B28" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+  <!-- Head curled in front -->
+  <circle cx="68" cy="72" r="28" fill="url(#sleep-cat)" stroke="#DF9B28" stroke-width="2.5"/>
+
+  <!-- Ears flat/resting -->
+  <polygon points="50,56 42,32 64,48" fill="url(#sleep-cat)" stroke="#DF9B28" stroke-width="2.5"/>
+  <polygon points="51,52 46,38 60,48" fill="#FFB4B4"/>
+  <polygon points="76,50 88,30 90,54" fill="url(#sleep-cat)" stroke="#DF9B28" stroke-width="2.5"/>
+  <polygon points="79,48 86,36 88,52" fill="#FFB4B4"/>
+
+  <!-- Sleeping Eyes -->
+  <path d="M52,72 Q58,77 64,72" stroke="#451A03" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M72,72 Q78,77 84,72" stroke="#451A03" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Nose & gentle smile -->
+  <polygon points="67,78 71,78 69,80" fill="#F43F5E"/>
+  <path d="M69,80 Q69,84 66,84 M69,80 Q69,84 72,84" stroke="#451A03" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+
+  <!-- Paw tucked under chin -->
+  <ellipse cx="60" cy="94" rx="9" ry="7" fill="url(#sleep-cat)" stroke="#DF9B28" stroke-width="2"/>
+  <path d="M58,95 L58,98 M62,95 L62,98" stroke="#DF9B28" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Floating Zzz -->
+  <g fill="#F59E0B" font-family="'Comic Sans MS', cursive, sans-serif" font-weight="bold">
+    <text x="100" y="45" font-size="14" opacity="0.8">z</text>
+    <text x="115" y="32" font-size="18" opacity="0.9">Z</text>
+    <text x="135" y="18" font-size="22" opacity="1.0">Z</text>
+  </g>
+</svg>

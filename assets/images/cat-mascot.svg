@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cat-yellow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFEBB0"/>
+      <stop offset="100%" stop-color="#FCD579"/>
+    </linearGradient>
+    <linearGradient id="belly-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FFF8E7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Tail with animation potential -->
+  <path d="M165,185 C200,185 215,140 195,125 C185,115 175,128 185,138 C195,148 180,170 160,170 Z" fill="url(#cat-yellow)" stroke="#DF9B28" stroke-width="3"/>
+
+  <!-- Body -->
+  <ellipse cx="120" cy="165" rx="52" ry="48" fill="url(#cat-yellow)" stroke="#DF9B28" stroke-width="3"/>
+
+  <!-- Belly -->
+  <ellipse cx="120" cy="172" rx="34" ry="32" fill="url(#belly-grad)"/>
+
+  <!-- Back Paws / Feet -->
+  <ellipse cx="76" cy="198" rx="16" ry="11" fill="url(#cat-yellow)" stroke="#DF9B28" stroke-width="2.5"/>
+  <ellipse cx="164" cy="198" rx="16" ry="11" fill="url(#cat-yellow)" stroke="#DF9B28" stroke-width="2.5"/>
+
+  <!-- Front Paws -->
+  <ellipse cx="104" cy="190" rx="11" ry="14" fill="url(#cat-yellow)" stroke="#DF9B28" stroke-width="2.5"/>
+  <ellipse cx="136" cy="190" rx="11" ry="14" fill="url(#cat-yellow)" stroke="#DF9B28" stroke-width="2.5"/>
+  <!-- Paw Lines -->
+  <path d="M101,196 L101,202 M107,196 L107,202" stroke="#DF9B28" stroke-width="2" stroke-linecap="round"/>
+  <path d="M133,196 L133,202 M139,196 L139,202" stroke="#DF9B28" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Collar & Bell -->
+  <path d="M92,138 Q120,154 148,138" stroke="#EF4444" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <circle cx="120" cy="149" r="7.5" fill="#F59E0B" stroke="#B45309" stroke-width="1.8"/>
+  <circle cx="120" cy="151" r="1.5" fill="#78350F"/>
+
+  <!-- Head -->
+  <circle cx="120" cy="95" r="48" fill="url(#cat-yellow)" stroke="#DF9B28" stroke-width="3"/>
+
+  <!-- Ears -->
+  <!-- Left Ear -->
+  <polygon points="80,72 70,22 104,54" fill="url(#cat-yellow)" stroke="#DF9B28" stroke-width="3" stroke-linejoin="round"/>
+  <polygon points="81,66 75,32 99,53" fill="#FFB4B4"/>
+  <!-- Right Ear -->
+  <polygon points="160,72 170,22 136,54" fill="url(#cat-yellow)" stroke="#DF9B28" stroke-width="3" stroke-linejoin="round"/>
+  <polygon points="159,66 165,32 141,53" fill="#FFB4B4"/>
+
+  <!-- Face Markings / Stripes on forehead -->
+  <path d="M120,53 L120,68 M112,57 L114,68 M128,57 L126,68" stroke="#DF9B28" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Eyes (Happy closed smiling curve) -->
+  <path d="M96,92 Q105,82 113,92" stroke="#451A03" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M127,92 Q135,82 144,92" stroke="#451A03" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Cheeks Blush -->
+  <ellipse cx="90" cy="104" rx="9" ry="5.5" fill="#FF8A8A" opacity="0.65"/>
+  <ellipse cx="150" cy="104" rx="9" ry="5.5" fill="#FF8A8A" opacity="0.65"/>
+
+  <!-- Cute Cat Nose & Mouth -->
+  <polygon points="117,99 123,99 120,103" fill="#F43F5E"/>
+  <path d="M120,103 L120,107 M120,107 Q113,115 106,108 M120,107 Q127,115 134,108" stroke="#451A03" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Whiskers -->
+  <g stroke="#92400E" stroke-width="2" stroke-linecap="round">
+    <line x1="72" y1="98" x2="52" y2="94"/>
+    <line x1="71" y1="106" x2="50" y2="108"/>
+    <line x1="168" y1="98" x2="188" y2="94"/>
+    <line x1="169" y1="106" x2="190" y2="108"/>
+  </g>
+
+  <!-- Sparkles -->
+  <g fill="#F59E0B">
+    <path d="M38,62 Q45,62 45,55 Q45,62 52,62 Q45,62 45,69 Q45,62 38,62 Z"/>
+    <path d="M192,42 Q197,42 197,37 Q197,42 202,42 Q197,42 197,47 Q197,42 192,42 Z"/>
+  </g>
+</svg>

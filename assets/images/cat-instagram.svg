@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cat-ig-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF5D1"/>
+      <stop offset="100%" stop-color="#FCD579"/>
+    </linearGradient>
+    <linearGradient id="ig-gradient" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFDC80"/>
+      <stop offset="30%" stop-color="#F77737"/>
+      <stop offset="60%" stop-color="#E1306C"/>
+      <stop offset="100%" stop-color="#833AB4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="120" cy="120" r="105" fill="#FFFBEB" stroke="#FDE68A" stroke-width="4"/>
+
+  <!-- Love Heart Bubble -->
+  <g transform="translate(145, 30)">
+    <path d="M25,35 C25,35 10,24 10,14 C10,6 16,1 23,3 C27,4 29,8 29,8 C29,8 31,4 35,3 C42,1 48,6 48,14 C48,24 33,35 33,35 L29,42 Z" fill="#F43F5E"/>
+    <circle cx="29" cy="15" r="4" fill="#FFFFFF" opacity="0.3"/>
+  </g>
+
+  <!-- Cat Head peeking from bottom -->
+  <!-- Ears -->
+  <polygon points="65,95 50,40 92,72" fill="url(#cat-ig-grad)" stroke="#DF9B28" stroke-width="3"/>
+  <polygon points="66,88 56,50 88,72" fill="#FFB4B4"/>
+
+  <polygon points="175,95 190,40 148,72" fill="url(#cat-ig-grad)" stroke="#DF9B28" stroke-width="3"/>
+  <polygon points="174,88 184,50 152,72" fill="#FFB4B4"/>
+
+  <!-- Head -->
+  <circle cx="120" cy="115" r="54" fill="url(#cat-ig-grad)" stroke="#DF9B28" stroke-width="3"/>
+
+  <!-- Cheerful Eyes -->
+  <ellipse cx="98" cy="108" rx="8" ry="10" fill="#451A03"/>
+  <circle cx="95" cy="104" r="3.2" fill="#FFFFFF"/>
+  <circle cx="101" cy="112" r="1.5" fill="#FFFFFF"/>
+
+  <ellipse cx="142" cy="108" rx="8" ry="10" fill="#451A03"/>
+  <circle cx="139" cy="104" r="3.2" fill="#FFFFFF"/>
+  <circle cx="145" cy="112" r="1.5" fill="#FFFFFF"/>
+
+  <!-- Cheeks Blush -->
+  <ellipse cx="84" cy="120" rx="10" ry="6" fill="#FF8A8A" opacity="0.65"/>
+  <ellipse cx="156" cy="120" rx="10" ry="6" fill="#FF8A8A" opacity="0.65"/>
+
+  <!-- Cute Cat Nose & Smile -->
+  <polygon points="117,118 123,118 120,122" fill="#F43F5E"/>
+  <path d="M120,122 L120,126 M120,126 Q113,134 106,127 M120,126 Q127,134 134,127" stroke="#451A03" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Whiskers -->
+  <g stroke="#92400E" stroke-width="2" stroke-linecap="round">
+    <line x1="72" y1="120" x2="52" y2="117"/>
+    <line x1="72" y1="128" x2="54" y2="131"/>
+    <line x1="168" y1="120" x2="188" y2="117"/>
+    <line x1="168" y1="128" x2="186" y2="131"/>
+  </g>
+
+  <!-- Paws holding the Instagram Badge in front -->
+  <!-- Instagram Badge Plate -->
+  <rect x="68" y="148" width="104" height="65" rx="20" fill="url(#ig-gradient)" stroke="#FFFFFF" stroke-width="3"/>
+  
+  <!-- Instagram Camera Icon inside plate -->
+  <rect x="100" y="162" width="40" height="40" rx="11" fill="none" stroke="#FFFFFF" stroke-width="3.5"/>
+  <circle cx="120" cy="182" r="9.5" fill="none" stroke="#FFFFFF" stroke-width="3.2"/>
+  <circle cx="131" cy="171" r="2.2" fill="#FFFFFF"/>
+
+  <!-- Paws holding top of card -->
+  <ellipse cx="78" cy="150" rx="14" ry="11" fill="url(#cat-ig-grad)" stroke="#DF9B28" stroke-width="2.5"/>
+  <path d="M74,153 L74,158 M80,153 L80,158" stroke="#DF9B28" stroke-width="1.8" stroke-linecap="round"/>
+
+  <ellipse cx="162" cy="150" rx="14" ry="11" fill="url(#cat-ig-grad)" stroke="#DF9B28" stroke-width="2.5"/>
+  <path d="M158,153 L158,158 M164,153 L164,158" stroke="#DF9B28" stroke-width="1.8" stroke-linecap="round"/>
+</svg>

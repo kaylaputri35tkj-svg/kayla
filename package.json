@@ -1,0 +1,12 @@
+{
+  "name": "kayla-portfolio",
+  "version": "1.0.0",
+  "description": "Portofolio Kayla Mahira Putri - Pelajar SMK Telkom Malang",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "keywords": ["portfolio", "smk-telkom-malang", "tkj", "cat-theme"],
+  "author": "Kayla Mahira Putri",
+  "license": "MIT"
+}

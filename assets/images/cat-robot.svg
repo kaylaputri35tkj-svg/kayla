@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="robot-body" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF3C4"/>
+      <stop offset="100%" stop-color="#F6CE65"/>
+    </linearGradient>
+    <linearGradient id="metal-accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2E8F0"/>
+      <stop offset="100%" stop-color="#94A3B8"/>
+    </linearGradient>
+    <linearGradient id="screen-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background decorative tech circle -->
+  <circle cx="120" cy="120" r="105" fill="#FEF3C7" stroke="#FDE68A" stroke-width="4" stroke-dasharray="10 8"/>
+
+  <!-- Circuit track decor -->
+  <g stroke="#F59E0B" stroke-width="2" fill="none" opacity="0.6">
+    <path d="M40,50 L70,50 L85,65"/>
+    <circle cx="40" cy="50" r="3" fill="#F59E0B"/>
+    <path d="M200,60 L180,60 L165,75"/>
+    <circle cx="200" cy="60" r="3" fill="#F59E0B"/>
+    <path d="M35,160 L60,160 L75,175"/>
+    <circle cx="35" cy="160" r="3" fill="#F59E0B"/>
+  </g>
+
+  <!-- Cyber Antenna on Cat Head -->
+  <line x1="120" y1="52" x2="120" y2="28" stroke="#64748B" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="120" cy="24" r="7" fill="#06B6D4" stroke="#0891B2" stroke-width="2"/>
+  <circle cx="118" cy="22" r="2.5" fill="#FFFFFF"/>
+
+  <!-- Robot Cat Body -->
+  <rect x="75" y="125" width="90" height="75" rx="25" fill="url(#robot-body)" stroke="#D97706" stroke-width="3"/>
+
+  <!-- Chest Screen / Monitor -->
+  <rect x="90" y="142" width="60" height="42" rx="10" fill="#0F172A" stroke="#475569" stroke-width="2.5"/>
+  <!-- Glowing Heartbeat / Circuit in chest -->
+  <path d="M96,163 L108,163 L113,153 L120,172 L127,157 L132,163 L144,163" stroke="#22D3EE" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="140" cy="150" r="2" fill="#10B981"/>
+
+  <!-- Robot Cat Head -->
+  <rect x="68" y="52" width="104" height="80" rx="28" fill="url(#robot-body)" stroke="#D97706" stroke-width="3"/>
+
+  <!-- Ears (Mechanical style) -->
+  <polygon points="76,55 60,15 95,48" fill="url(#robot-body)" stroke="#D97706" stroke-width="3"/>
+  <polygon points="77,50 67,24 90,47" fill="url(#metal-accent)"/>
+  
+  <polygon points="164,55 180,15 145,48" fill="url(#robot-body)" stroke="#D97706" stroke-width="3"/>
+  <polygon points="163,50 173,24 150,47" fill="url(#metal-accent)"/>
+
+  <!-- Cyber Visor / Eyes -->
+  <rect x="80" y="74" width="80" height="26" rx="8" fill="#1E293B" stroke="#334155" stroke-width="2"/>
+  <!-- Digital Pixel Cat Eyes -->
+  <ellipse cx="98" cy="87" rx="9" ry="6" fill="#38BDF8"/>
+  <circle cx="96" cy="85" r="2" fill="#FFFFFF"/>
+  <ellipse cx="142" cy="87" rx="9" ry="6" fill="#38BDF8"/>
+  <circle cx="140" cy="85" r="2" fill="#FFFFFF"/>
+
+  <!-- Little bolt/screw on side of cheek -->
+  <circle cx="75" cy="98" r="3.5" fill="#94A3B8" stroke="#475569" stroke-width="1"/>
+  <line x1="73" y1="98" x2="77" y2="98" stroke="#334155" stroke-width="1"/>
+  <circle cx="165" cy="98" r="3.5" fill="#94A3B8" stroke="#475569" stroke-width="1"/>
+  <line x1="163" y1="98" x2="167" y2="98" stroke="#334155" stroke-width="1"/>
+
+  <!-- Robot Cat Mouth -->
+  <path d="M114,112 Q120,118 126,112" stroke="#78350F" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Robot Arms / Paws holding a cute wrench or gear -->
+  <ellipse cx="78" cy="170" rx="14" ry="12" fill="url(#robot-body)" stroke="#D97706" stroke-width="2.5"/>
+  <ellipse cx="162" cy="170" rx="14" ry="12" fill="url(#robot-body)" stroke="#D97706" stroke-width="2.5"/>
+
+  <!-- Cute Wrench held in right paw -->
+  <g transform="translate(170, 145) rotate(25)">
+    <path d="M5,12 L5,35 L12,35 L12,12" fill="url(#metal-accent)" stroke="#475569" stroke-width="2"/>
+    <path d="M0,8 C-2,2 5,-4 11,-4 C17,-4 20,2 17,8 L13,6 C13,3 10,1 8.5,1 C7,1 5,3 5,6 Z" fill="url(#metal-accent)" stroke="#475569" stroke-width="2"/>
+  </g>
+
+  <!-- Feet / Paws -->
+  <ellipse cx="95" cy="202" rx="16" ry="10" fill="url(#metal-accent)" stroke="#64748B" stroke-width="2.5"/>
+  <ellipse cx="145" cy="202" rx="16" ry="10" fill="url(#metal-accent)" stroke="#64748B" stroke-width="2.5"/>
+
+  <!-- Floating Gear Decor -->
+  <g transform="translate(42, 105) scale(0.65)" fill="#F59E0B" opacity="0.8">
+    <path d="M20,14 L24,14 L25,18 L29,19 L32,16 L35,19 L32,22 L33,26 L37,27 L37,31 L33,32 L32,36 L35,39 L32,42 L29,39 L25,40 L24,44 L20,44 L19,40 L15,39 L12,42 L9,39 L12,36 L11,32 L7,31 L7,27 L11,26 L12,22 L9,19 L12,16 L15,19 L19,18 Z"/>
+    <circle cx="22" cy="29" r="6" fill="#FEF3C7"/>
+  </g>
+</svg>

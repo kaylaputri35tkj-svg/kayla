@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary Meta Tags -->
+  <title>Kayla Mahira Putri | Pelajar SMK Telkom Malang</title>
+  <meta name="title" content="Kayla Mahira Putri | Pelajar SMK Telkom Malang">
+  <meta name="description" content="Website portofolio resmi Kayla Mahira Putri, siswi Kelas 10 jurusan Teknik Komputer dan Jaringan (TKJ) di SMK Telkom Malang. Menampilkan profil, kegiatan robotik, dan hobi.">
+  <meta name="theme-color" content="#FEF08A">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Kayla Mahira Putri | Pelajar SMK Telkom Malang">
+  <meta property="og:description" content="Portofolio resmi siswi SMK Telkom Malang - Kelas 10 TKJ, Ekstrakurikuler Robotik, Hobi Menggambar & Mendengarkan Musik.">
+  <meta property="og:image" content="assets/images/kayla.jpg">
+
+  <!-- Styles & Favicon -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐱</text></svg>">
+</head>
+<body>
+
+  <!-- ==========================================
+       NAVIGATION BAR (HTML & JavaScript Driven)
+       ========================================== -->
+  <header>
+    <nav class="navbar">
+      <a href="#beranda" class="nav-brand" onclick="navigateTo('beranda')">
+        <span class="brand-cat-icon">
+          <img src="assets/images/cat-paw.svg" alt="Paw" width="20" height="20">
+        </span>
+        <span>Kayla M.P</span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Buka Menu Navigasi">☰</button>
+
+      <ul class="nav-links">
+        <li class="nav-item">
+          <button type="button" data-page-target="beranda" class="active">
+            <span class="nav-paw-dot"></span> Beranda
+          </button>
+        </li>
+        <li class="nav-item">
+          <button type="button" data-page-target="profil">
+            <span class="nav-paw-dot"></span> Profil
+          </button>
+        </li>
+        <li class="nav-item">
+          <button type="button" data-page-target="kontak">
+            <span class="nav-paw-dot"></span> Kontak
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ==========================================
+       MAIN CONTENT (Interactive Dynamic Sections)
+       ========================================== -->
+  <main class="main-content">
+
+    <!-- ========================================
+         SECTION 1: HALAMAN UTAMA (BERANDA)
+         ======================================== -->
+    <section id="section-beranda" class="page-section active">
+      <div class="hero-card">
+        <div class="hero-grid">
+          
+          <!-- Left Column: Hero Text -->
+          <div class="hero-text-col">
+            <div class="hero-badge-tag">
+              <span>🐾</span> Portofolio & Profil Siswi
+            </div>
+
+            <h1 class="hero-title">
+              Halo! Saya <br>
+              <span>Kayla Mahira Putri</span>
+            </h1>
+
+            <div class="hero-subtitle">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="#CA8A04">
+                <path d="M12 3L1 9L12 15L21 10.09V17H23V9M5 13.18V17.18L12 21L19 17.18V13.18L12 17L5 13.18Z"/>
+              </svg>
+              <span>Pelajar SMK Telkom Malang</span>
+            </div>
+
+            <p class="hero-desc">
+              Selamat datang di situs pribadi saya! Saya adalah siswi yang bersemangat mempelajari dunia teknologi jaringan, robotika modern, dan menuangkan kreativitas melalui seni gambar serta alunan musik. Senang Anda dapat berkunjung ke laman ini.
+            </p>
+
+            <div class="hero-actions">
+              <button type="button" class="btn btn-primary" onclick="navigateTo('profil')">
+                <span>Lihat Profil Lengkap</span>
+                <span>🐾</span>
+              </button>
+              <button type="button" class="btn btn-secondary" onclick="navigateTo('kontak')">
+                <span>Hubungi Saya</span>
+                <span>✉️</span>
+              </button>
+            </div>
+
+            <!-- Cute Cat Speech Bubble with Mascot -->
+            <div class="cat-speech-bubble">
+              <img src="assets/images/cat-mascot.svg" alt="Cat Mascot" width="46" height="46" style="flex-shrink:0;">
+              <div>
+                <p><strong>Catatan Kucing Manis:</strong> "Terus belajar dan berinovasi dengan riang gembira setiap hari!"</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Kayla's Photo with Cat Frame -->
+          <div class="hero-photo-col">
+            <div class="photo-wrapper">
+              <!-- Cat Ears on Frame Top -->
+              <div class="photo-ears">
+                <svg viewBox="0 0 100 100" fill="#FEF08A" stroke="#EAB308" stroke-width="4">
+                  <polygon points="10,90 40,15 85,75" />
+                  <polygon points="25,80 45,30 75,70" fill="#FDE2E4" stroke="none" />
+                </svg>
+                <svg viewBox="0 0 100 100" fill="#FEF08A" stroke="#EAB308" stroke-width="4" style="transform: scaleX(-1);">
+                  <polygon points="10,90 40,15 85,75" />
+                  <polygon points="25,80 45,30 75,70" fill="#FDE2E4" stroke="none" />
+                </svg>
+              </div>
+
+              <!-- Floating Cat Badge -->
+              <div class="photo-badge-cat">
+                <span>🐱</span> TKJ Moklet &bull; Kelas 10
+              </div>
+
+              <!-- Profile Frame featuring User Photo -->
+              <div class="photo-frame">
+                <img src="assets/images/kayla.jpg" alt="Foto Kayla Mahira Putri - Pelajar SMK Telkom Malang">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Cute Paw Decoration Pattern -->
+        <div class="cat-pattern-strip">
+          <img src="assets/images/cat-paw.svg" class="cat-paw-svg" alt="Paw" width="24" height="24">
+          <img src="assets/images/cat-paw.svg" class="cat-paw-svg" alt="Paw" width="24" height="24">
+          <img src="assets/images/cat-paw.svg" class="cat-paw-svg" alt="Paw" width="24" height="24">
+          <img src="assets/images/cat-paw.svg" class="cat-paw-svg" alt="Paw" width="24" height="24">
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================
+         SECTION 2: HALAMAN PROFIL
+         ======================================== -->
+    <section id="section-profil" class="page-section">
+      <div class="page-header">
+        <h1>Profil Siswi</h1>
+        <p>Mengenal latar belakang, jurusan, ekstrakurikuler, dan minat kegemaran saya 🐾</p>
+      </div>
+
+      <div class="profile-layout">
+        
+        <!-- Sidebar Profile Card featuring Kayla's Photo -->
+        <aside class="profile-sidebar">
+          <div class="profile-avatar-box">
+            <img src="assets/images/kayla.jpg" alt="Foto Kayla Mahira Putri">
+          </div>
+          <h2>Kayla Mahira Putri</h2>
+          <span class="profile-school-tag">SMK Telkom Malang</span>
+
+          <ul class="quick-meta-list">
+            <li class="quick-meta-item">
+              <span class="meta-label">
+                <span>🏫</span> Status
+              </span>
+              <span class="meta-value">Pelajar Aktif</span>
+            </li>
+            <li class="quick-meta-item">
+              <span class="meta-label">
+                <span>🏷️</span> Tingkat
+              </span>
+              <span class="meta-value">Kelas 10</span>
+            </li>
+            <li class="quick-meta-item">
+              <span class="meta-label">
+                <span>💻</span> Jurusan
+              </span>
+              <span class="meta-value">TKJ</span>
+            </li>
+            <li class="quick-meta-item">
+              <span class="meta-label">
+                <span>🤖</span> Ekskul
+              </span>
+              <span class="meta-value">Robotik</span>
+            </li>
+          </ul>
+
+          <div style="margin-top: 24px;">
+            <button type="button" class="btn btn-primary" onclick="navigateTo('kontak')" style="width: 100%; justify-content: center; padding: 11px 16px;">
+              <span>Hubungi di Instagram</span>
+              <span>📱</span>
+            </button>
+          </div>
+        </aside>
+
+        <!-- Right Column: Detail Content Cards -->
+        <div class="profile-content-cards">
+          
+          <!-- Card 1: Pendidikan & Jurusan TKJ -->
+          <div class="info-card">
+            <div class="card-title-row">
+              <div class="card-icon">🎓</div>
+              <div>
+                <h3>Pendidikan & Kejuruan</h3>
+              </div>
+            </div>
+            <p style="margin-bottom: 12px;">
+              Saat ini saya sedang menempuh pendidikan di <strong>SMK Telkom Malang</strong> pada tingkatan <strong>Kelas 10</strong> dengan peminatan kejuruan <strong>Teknik Komputer dan Jaringan (TKJ)</strong>.
+            </p>
+            <p>
+              Di jurusan TKJ, saya mendalami dasar-dasar arsitektur jaringan komputer, perakitan dan konfigurasi perangkat keras, sistem operasi jaringan, serta pengelolaan data yang menjadi fondasi penting di era digital modern.
+            </p>
+          </div>
+
+          <!-- Card 2: Ekstrakurikuler Robotik -->
+          <div class="info-card">
+            <div class="card-title-row">
+              <div class="card-icon">🤖</div>
+              <div>
+                <h3>Ekstrakurikuler Robotik</h3>
+              </div>
+            </div>
+
+            <div class="extracurricular-badge">
+              <div class="robot-cat-illustration">
+                <img src="assets/images/cat-robot.svg" alt="Robot Cat Illustration" width="56" height="56">
+              </div>
+              <div class="extracurricular-details">
+                <h4>Aktif di Komunitas Robotik Sekolah</h4>
+                <p>
+                  Saya aktif mengikuti ekstrakurikuler <strong>Robotik</strong> di SMK Telkom Malang. Di sini, saya mengasah kemampuan perakitan perangkat keras cerdas, logika algoritma, serta kerja sama tim dalam memecahkan tantangan teknologi otomatisasi.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: Hobi Menggambar & Mendengarkan Musik -->
+          <div class="info-card">
+            <div class="card-title-row">
+              <div class="card-icon">🎨</div>
+              <div>
+                <h3>Hobi & Kegemaran Kreatif</h3>
+              </div>
+            </div>
+            <p>
+              Selain berfokus pada ranah teknik komputer, saya senang menyalurkan imajinasi dan menjaga keseimbangan pikiran melalui kegiatan kreatif:
+            </p>
+
+            <div class="hobbies-grid">
+              
+              <!-- Hobby 1: Menggambar -->
+              <div class="hobby-pill">
+                <div style="width: 52px; height: 52px; flex-shrink: 0;">
+                  <img src="assets/images/cat-artist.svg" alt="Cat Artist Illustration" width="52" height="52">
+                </div>
+                <div class="hobby-info">
+                  <h4>Hobi Menggambar</h4>
+                  <p>Mengekspresikan imajinasi lewat sketsa, corat-coret kreatif, dan ilustrasi estetis.</p>
+                </div>
+              </div>
+
+              <!-- Hobby 2: Mendengarkan Musik -->
+              <div class="hobby-pill">
+                <div style="width: 52px; height: 52px; flex-shrink: 0;">
+                  <img src="assets/images/cat-music.svg" alt="Cat Music Illustration" width="52" height="52">
+                </div>
+                <div class="hobby-info">
+                  <h4>Mendengarkan Musik</h4>
+                  <p>Menemani aktivitas belajar dan berkarya dengan irama melodi yang menenangkan jiwa.</p>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Mini Gallery of Drawings -->
+            <div style="margin-top: 24px; border-top: 1.5px dashed var(--border-soft); padding-top: 18px;">
+              <h4 style="font-size: 0.95rem; font-weight: 700; color: var(--text-dark); margin-bottom: 12px; display: flex; align-items: center; gap: 8px;">
+                <span>🖼️</span> Galeri Karya Seni & Sketsa
+              </h4>
+              <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px;">
+                <div style="border-radius: 12px; overflow: hidden; border: 1.5px solid var(--border-soft); height: 110px;">
+                  <img src="assets/images/artwork-mandala.jpg" alt="Sketsa Mandala" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div style="border-radius: 12px; overflow: hidden; border: 1.5px solid var(--border-soft); height: 110px;">
+                  <img src="assets/images/artwork-teapot.jpg" alt="Sketsa Teapot" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div style="border-radius: 12px; overflow: hidden; border: 1.5px solid var(--border-soft); height: 110px;">
+                  <img src="assets/images/artwork-peach.jpg" alt="Sketsa Peach" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================
+         SECTION 3: HALAMAN KONTAK
+         ======================================== -->
+    <section id="section-kontak" class="page-section">
+      <div class="contact-wrapper">
+        <div class="contact-card">
+          
+          <!-- Cat Character Illustration for Contact -->
+          <div class="contact-cat-hero">
+            <img src="assets/images/cat-instagram.svg" alt="Cat Instagram Illustration" width="80" height="80">
+          </div>
+
+          <h2>Mari Terhubung!</h2>
+          <p class="contact-lead">
+            Terima kasih banyak telah berkunjung ke situs web saya. Jika Anda tertarik berdiskusi mengenai proyek teknologi, jaringan komputer, atau berbagi inspirasi karya seni, silakan hubungi saya melalui akun Instagram resmi di bawah ini:
+          </p>
+
+          <!-- Instagram Showcase Card -->
+          <div class="instagram-box">
+            <div class="ig-icon-badge">
+              <svg width="34" height="34" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+              </svg>
+            </div>
+
+            <div>
+              <div style="font-size: 0.88rem; color: var(--text-muted); font-weight: 600; margin-bottom: 4px;">Akun Instagram Resmi</div>
+              <div class="ig-account-name">@straarr_</div>
+            </div>
+
+            <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+              <a href="https://instagram.com/straarr_" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="padding: 12px 24px;">
+                <span>Buka Instagram</span>
+                <span>↗</span>
+              </a>
+              <button type="button" class="btn btn-secondary" onclick="copyInstagramHandle(event)" style="padding: 12px 20px;">
+                <span>Salin Username</span>
+                <span>📋</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Privacy & Protection Note (Strictly no phone/email/address) -->
+          <div class="privacy-notice-box">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="#CA8A04">
+              <path d="M12 1L3 5V11C3 16.55 6.84 21.74 12 23C17.16 21.74 21 16.55 21 11V5L12 1M12 5A3 3 0 0 1 15 8A3 3 0 0 1 12 11A3 3 0 0 1 9 8A3 3 0 0 1 12 5M17.13 17C15.92 18.85 14.11 20.24 12 20.92C9.89 20.24 8.08 18.85 6.87 17C6.53 16.5 6.24 16 6 15.47C7.44 14.28 9.5 13.5 12 13.5C14.5 13.5 16.56 14.28 18 15.47C17.76 16 17.47 16.5 17.13 17Z"/>
+            </svg>
+            <span>Pemberitahuan: Demi keamanan & privasi pelajar, informasi kontak personal seperti nomor telepon, alamat, dan email tidak dipublikasikan.</span>
+          </div>
+
+          <!-- Decorative Cat Paws Strip -->
+          <div class="cat-pattern-strip" style="margin-top: 32px;">
+            <img src="assets/images/cat-paw.svg" class="cat-paw-svg" alt="Paw" width="24" height="24">
+            <img src="assets/images/cat-paw.svg" class="cat-paw-svg" alt="Paw" width="24" height="24">
+            <img src="assets/images/cat-paw.svg" class="cat-paw-svg" alt="Paw" width="24" height="24">
+            <img src="assets/images/cat-paw.svg" class="cat-paw-svg" alt="Paw" width="24" height="24">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==========================================
+       INTERACTIVE CAT CORNER MASCOT
+       ========================================== -->
+  <aside class="cat-corner-buddy">
+    <div class="buddy-bubble">Meow! Klik aku~ 🐾</div>
+    <button class="buddy-cat-btn" aria-label="Teman Kucing Interaktif">😸</button>
+  </aside>
+
+  <!-- Toast Notification Container for JavaScript -->
+  <div class="toast-notice"></div>
+
+  <!-- ==========================================
+       SITE FOOTER
+       ========================================== -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div style="margin-bottom: 8px;">
+        <img src="assets/images/cat-sleeping.svg" alt="Sleeping Cat" width="60" height="35" style="opacity: 0.85;">
+      </div>
+      <div class="footer-cat-row">
+        <span>🐾</span>
+        <span>Kayla Mahira Putri &bull; SMK Telkom Malang</span>
+        <span>🐱</span>
+      </div>
+      <div class="footer-school-credit">
+        Desain bertema Kuning Soft & Ornamen Kucing Lucu &copy; 2026. Berbasis HTML & JavaScript responsif.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Link to External JavaScript Engine -->
+  <script src="script.js"></script>
+</body>
+</html>
